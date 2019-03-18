@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Normul";
+  src: url("../assets/NormulQT-Regular.woff2") format("woff2"),
+       url("../assets/NormulQT-Regular.woff") format("woff");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +12,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Normul", Helvetica, Arial, sans-serif;
 }
 
 .slide {
@@ -83,6 +90,12 @@ body {
       max-height: 100%;
     }
   }
+}
+
+.last {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
 }
 
 @media screen and (max-width: 768px) {
