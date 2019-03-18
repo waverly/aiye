@@ -86,6 +86,13 @@ body {
   width: 100%;
   padding: 1rem;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last a {
+  color: black;
+  text-decoration: unset;
 }
 
 @media screen and (max-width: 768px) {
